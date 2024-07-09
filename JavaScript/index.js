@@ -119,3 +119,10 @@ function getUserLocation() {
 searchInput.addEventListener('input', function() {
     fire(searchInput.value);
 });
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     var container = document.querySelector('.content-container');
+//     var bodyHeight = document.body.scrollHeight;
+//     var containerHeight = bodyHeight + 300;
+//     container.style.height = containerHeight + 'px';
+// });
