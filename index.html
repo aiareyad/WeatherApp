@@ -87,67 +87,67 @@
         </div>
     </div>
     
-
+    
     <div class="weather-cards">
-
+        
         <div class="container">
             <div class="row g-3">
-    
-                <div class="col-lg-4 mt-5 today">
-        
+                
+                <div class="col-lg-4 mt-5 tomorrow py-5 ps-5">
                     <div class="card">
                         <div class="card-body">
-
+                            <div class="day d-flex justify-content-center">
+                                <span class="nextDay"></span>
+                            </div>
                             <div class="flexx d-flex justify-content-center align-content-center flex-column">
-                                
-                            <div class="day d-flex justify-content-between">
-                                <span id="today"></span>
-                                <div class="months d-flex justify-content-end">
-
-                                    <span id="dayNum" class="pe-1"></span><span id="month"></span>
-
-                                </div>
-                            </div>
-    
-                            <p class="px-4 mt-4 text-center" id="locationElement"></p>
-                            <h1 class="card-title px-4 fs-1 text-center" id="temp"></h1>
-                            <img id="weatherImg" src="" alt="">
-                            <p class="p-4 text-center" id="weatherText"></p>
-                            <div class="icons d-flex justify-content-around pb-4">
-    
-                                <i class="fa-solid fa-umbrella"><span id="curHumidity"></span></i>
-                                <i class="fa-solid fa-wind"><span id="windSpeed"></span></i>
-                                <i class="fa-regular fa-compass"><span id="windDirection"></span></i>
-                            </div>
+                                <h1 class="card-title margin px-4 fs-2 text-center maxDeg">39.7°C</h1>
+                                <img class="nextWeatherImg" src="" alt="Weather Icon">
+                            <p class="text-center fs-4 minDeg">24.9°C</p>
+                            <p class="p-4 text-center nextWeatherText">Sunny</p>
                             <p class="card-text" id="current-weather"></p>
-                        
-                            </div>
                         </div>
+                    </div>
+                    </div>
+        
+                </div>
                 
+                
+                <div class="col-lg-4 mt-5 today">
+                    <div class="card">
+        <div class="card-body">
+
+            <div class="flexx d-flex justify-content-center align-content-center flex-column">
+                
+            <div class="day d-flex justify-content-between">
+                <span id="today"></span>
+                <div class="months d-flex justify-content-end">
+
+                    <span id="dayNum" class="pe-1"></span><span id="month"></span>
+
                 </div>
             </div>
-            
-            
-<div class="col-lg-4 mt-5 tomorrow">
-    <div class="card">
-        <div class="card-body">
-            <div class="day d-flex justify-content-center">
-                <span class="nextDay"></span>
+
+            <p class="px-4 mt-4 text-center" id="locationElement"></p>
+            <h1 class="card-title px-4 fs-1 text-center" id="temp"></h1>
+            <img id="weatherImg" src="" alt="">
+            <p class="p-4 text-center" id="weatherText"></p>
+            <div class="icons d-flex justify-content-around pb-4">
+
+                <i class="fa-solid fa-umbrella"><span id="curHumidity"></span></i>
+                <i class="fa-solid fa-wind"><span id="windSpeed"></span></i>
+                <i class="fa-regular fa-compass"><span id="windDirection"></span></i>
             </div>
-            <div class="flexx d-flex justify-content-center align-content-center flex-column">
-                <h1 class="card-title margin px-4 fs-2 text-center maxDeg">39.7°C</h1>
-                <img class="nextWeatherImg" src="" alt="Weather Icon">
-            <p class="text-center fs-4 minDeg">24.9°C</p>
-            <p class="p-4 text-center nextWeatherText">Sunny</p>
             <p class="card-text" id="current-weather"></p>
+        
+            </div>
         </div>
-    </div>
-    </div>
-</div>
+
+                    </div>
+            </div>
 
     
     
-        <div class="col-lg-4 mt-5 after-tom">
+        <div class="col-lg-4 mt-5 after-tom py-5 pe-5">
         
             <div class="card">
                 <div class="card-body">
